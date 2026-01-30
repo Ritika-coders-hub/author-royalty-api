@@ -1,0 +1,50 @@
+### Get all authors
+GET http://localhost:3000/authors
+
+###
+
+### Get author details
+GET http://localhost:3000/authors/1
+
+###
+
+### Get author sales
+GET http://localhost:3000/authors/1/sales
+
+###
+
+### Create valid withdrawal
+POST http://localhost:3000/withdrawals
+Content-Type: application/json
+
+{
+  "author_id": 1,
+  "amount": 2000
+}
+
+###
+
+### Withdrawal below ₹500
+POST http://localhost:3000/withdrawals
+Content-Type: application/json
+
+{
+  "author_id": 1,
+  "amount": 300
+}
+
+###
+
+### Withdrawal exceeding balance
+POST http://localhost:3000/withdrawals
+Content-Type: application/json
+
+{
+  "author_id": 1,
+  "amount": 10000
+}
+
+###
+
+### Get withdrawals
+GET http://localhost:3000/withdrawals/authors/1
