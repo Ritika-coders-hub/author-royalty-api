@@ -2,8 +2,22 @@
 
 A backend REST API to manage authors, books, sales, and royalties with real-time earnings calculation.
 
-Tech Stack: Node.js with Express.js for simplicity and speed, CORS for cross-origin testing, and in-memory JSON for easy data handling without a database.
+🛠 Tech Stack
 
-Assumptions: Data is stored in memory; withdrawals are marked pending; API focuses on correctness and clarity.
+Node.js & Express.js – simple, fast, and reliable backend
 
-Time Spent: Approximately 8-9 hours, including development, debugging, and deployment.
+CORS – cross-origin support for testing
+
+In-memory JSON – lightweight data handling without a database
+
+🧠 Assumptions
+
+Data is stored in memory
+
+Withdrawals are marked pending
+
+Focused on correctness & clarity
+
+⏱ Time Spent
+
+Approximately X–Y hours (development, debugging, and deployment)
