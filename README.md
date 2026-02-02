@@ -1,23 +1,51 @@
-✍️ Author Royalty API
+📚 Author Royalty API
 
-A backend REST API to manage authors, books, sales, and royalties with real-time earnings calculation.
+A Node.js + Express REST API to manage authors, books, sales, royalties, and withdrawals.
+The API calculates total earnings and current balances based on book sales and enforces business rules for withdrawals.
 
-🛠 Tech Stack
+🚀 Tech Stack
 
-Node.js & Express.js – simple, fast, and reliable backend
+Node.js
 
-CORS – cross-origin support for testing
+Express.js
 
-In-memory JSON – lightweight data handling without a database
+CORS (for cross-origin requests)
 
-🧠 Assumptions
+In-memory data (seed data)
 
-Data is stored in memory
+Why this stack?
+Node.js + Express provides a lightweight, fast backend that is easy to maintain and ideal for REST APIs.
+🧪 Testing
 
-Withdrawals are marked pending
+Tested locally using VS Code REST Client (api-test.http)
 
-Focused on correctness & clarity
+All endpoints return correct data
 
+All validation rules enforced
+
+Proper HTTP status codes used
+
+☁️ Deployment
+
+The API is deployed on Render (Free Tier).
 ⏱ Time Spent
 
-Approximately X–Y hours (development, debugging, and deployment)
+Approximately 8–10 hours, including:
+
+API design
+
+Business logic
+
+Debugging
+
+Testing
+
+Deployment
+
+✅ Assumptions
+
+Data is stored in memory (no database) as per assignment scope
+
+Withdrawals are stored temporarily and reset on server restart
+
+Focus was on correctness and clarity over complexity
