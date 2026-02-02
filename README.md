@@ -28,9 +28,8 @@ Proper HTTP status codes used
 ☁️ Deployment
 
 The API is deployed on Render (Free Tier).
-⏱ Time Spent
 
-Approximately 8–10 hours, including:
+⏱ Time Spent - Approximately 8–10 hours, including:
 
 API design
 
